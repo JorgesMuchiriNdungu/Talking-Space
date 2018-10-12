@@ -83,7 +83,33 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			    </div>
 			</div>
 	<div class="col-md-9 main">
-	<!-- register -->
+	<!-- register --><div class="container">
+  <h2>Modal Example</h2>
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Modal Header</h4>
+        </div>
+        <div class="modal-body">
+          <p>Some text in the modal.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
 			<div class="sign-up-form">
 				 <h3 class="tittle">Registration <i class="glyphicon glyphicon-file"></i></h3>
 					<p>Having hands on experience in creating innovative designs,I do offer design 
@@ -96,7 +122,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 						<div class="sign-up2">
 							<form action = "process.php" method = "POST" >
-								<input type="text" class="text" name = user_name onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
+								<input type="text" class="text" name = "username" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
 
 				
 						</div>
@@ -104,11 +130,24 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<div class="sign-u">
 						<div class="sign-up1">
-							<h4 class="b"> Name* :</h4>
+							<h4 class="b">Full Name* :</h4>
 						</div>
 						<div class="sign-up2">
 						
-									<input type="text" class="text" name="name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Last Name';}">
+									<input type="text" class="text" name="full_name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Last Name';}">
+
+				
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+
+							<div class="sign-u">
+						<div class="sign-up1">
+							<h4 class="b">Phone Number* :</h4>
+						</div>
+						<div class="sign-up2">
+						
+									<input type="text" class="text" name="phone_number" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Last Name';}">
 
 				
 						</div>
@@ -126,23 +165,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 						<div class="clearfix"> </div>
 					</div>
-                     <div class="sign-u">
-						<div class="sign-up1">
-							<h4 class="b"> Gender* :</h4>
-						</div>
-						<div class="sign-up2">
-						
-								       <select class="form-control inpt" name="gender" id="gender">
-									<option value="">Gender</option>
-									<option value="M">Male</option>
-									<option value="F">Female</option>
-									
-								</select>
-
-				
-						</div>
-						<div class="clearfix"> </div>
-					</div>
+                
 					 <h3 class="tittle reg">Login Information <i class="glyphicon glyphicon-off"></i></h3>
 					<div class="sign-u">
 						<div class="sign-up1">

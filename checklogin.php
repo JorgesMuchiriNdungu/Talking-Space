@@ -18,16 +18,16 @@ $_SESSION["authlog"] = $spot_user_results->fetch_assoc();
 			
 			$userId = $_SESSION["authlog"]["userId"];
 			
-			$update_status = "UPDATE users2 SET  lastaccessdate = now() WHERE userId = '$userId' LIMIT 1";
+			$update_status = "UPDATE users2 set status = 'online' WHERE userId = '$userId' LIMIT 1";
 
 			if ($conn->query($update_status) === TRUE){
 if ($conn->query($update_status) === TRUE) {
 						if (($_SESSION["authlog"]["usertype"] == 1))	{
-							echo " Admin Login Succesfull";
-							exit();
+							@header("Location: dashboard.php");			
+					exit();
 						}else if (($_SESSION["authlog"]["usertype"] == 2)){
-							echo " User Login Succesfull";
-							exit();
+							@header("Location: index.php");			
+					exit();
 				}
 		}
 }

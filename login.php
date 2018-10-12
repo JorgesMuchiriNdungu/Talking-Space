@@ -36,28 +36,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </head>
 <body>
 	<!-- header-section-starts -->
-      <div class="h-top" id="home">
-		   <div class="top-header">
-				  <ul class="cl-effect-16 top-nag">
-						<li><a href="index.html" data-hover="Home">Home</a></li> 
-						<li><a href="profile.html" data-hover="My Profile">My Profile</a></li>
-						<li><a href="services.html" data-hover="Messages">Messages</a></li>
-						<li><a href="posts.html" data-hover="Posts">Posts</a></li>
-						<li><a href="login.html" data-hover="Login">Login</a></li>
-					
-					</ul>
-					<div class="search-box">
-					    <div class="b-search">
-								<form>
-										<input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
-										<input type="submit" value="">
-								</form>
-							</div>
-						</div>
-
-					<div class="clearfix"></div>
-				</div>
-       </div>
+    
 	<div class="full">
 			<div class="col-md-3 top-nav">
 				     <div class="logo">
@@ -95,40 +74,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- //login-page -->
 			<div class="clearfix"> </div>
 	<!--/footer-->
-	     <div class="footer">
-				 <div class="footer-top">
-				    <div class="col-md-4 footer-grid">
-					     <h4>Lorem sadipscing </h4>
-				          <ul class="bottom">
-							 <li>Consetetur sadipscing elitr</li>
-							 <li>Magna aliquyam eratsed diam</li>
-						 </ul>
-				    </div>
-					  <div class="col-md-4 footer-grid">
-					     <h4>Message Us Now</h4>
-				            <ul class="bottom">
-						     <li><i class="glyphicon glyphicon-home"></i>Available 24/7 </li>
-							 <li><i class="glyphicon glyphicon-envelope"></i><a href="mailto:info@example.com">mail@example.com</a></li>
-						   </ul>
-				    </div>
-					<div class="col-md-4 footer-grid">
-					     <h4>Address Location</h4>
-				           <ul class="bottom">
-						     <li><i class="glyphicon glyphicon-map-marker"></i>2901 Glassgow Road, WA 98122-1090 </li>
-							 <li><i class="glyphicon glyphicon-earphone"></i>phone: (888) 123-456-7899 </li>
-						   </ul>
-				    </div>
-					<div class="clearfix"> </div>
-				 </div>
-	     </div>
-		<div class="copy">
-		    <p>&copy; 2016 Blogger. All Rights Reserved | Design by <a href="http://w3layouts.com/">W3layouts</a> </p>
-		</div>
-	 <div class="clearfix"> </div>
-	</div>
-	<div class="clearfix"> </div>
-</div>	
-		<!--//footer-->
+	 <!--//footer-->
 			<!--start-smooth-scrolling-->
 						<script type="text/javascript">
 									$(document).ready(function() {
